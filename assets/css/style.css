@@ -416,7 +416,7 @@ body {
     text-align: center;
 }
 
-.reg-window {
+.log-window {
     position: relative;
     margin: auto;
     background-color: #1C1C1C;
@@ -425,7 +425,7 @@ body {
     padding: 5% 4%;
 }
 
-.reg-window > p {
+.log-window > p:first-child {
     font-size: 2.5rem;
     color: #7A7A7A;
     text-align: center;
@@ -454,7 +454,7 @@ body {
     font-size: 1.2rem;
 }
 
-.reg-button {
+.log-button {
     background-color: #E35C22;
     position: relative;
     width: 300px;
@@ -463,7 +463,7 @@ body {
     cursor: pointer;
 }
 
-.reg-button > p {
+.log-button > p {
     position: absolute;
     color: #FFFFFF;
     font-size: 3rem;
@@ -471,6 +471,18 @@ body {
     right: 50%;
     transform: translate(50%, -50%);
     text-shadow: 2px 2px 2px black;
+}
+
+.reg-link {
+    font-size: 1rem;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.reg-link > a {
+    color: #FFFFFF;
+    font-size: 1rem;
 }
 
 @media(min-width:1050px) {
