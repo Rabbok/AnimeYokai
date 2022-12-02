@@ -1,8 +1,10 @@
 body {
+    display: grid;
     background-color: #000000;
     overflow-x: hidden;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
+    grid-template-rows: auto auto 200px;
 }
 
 * {
@@ -73,7 +75,6 @@ body {
     margin-top: 300px;
     display: flex;
     width: 100%;
-    height: 200px;
     flex-direction: column;
     justify-content: center;
 }
@@ -117,7 +118,7 @@ body {
     list-style: none;
 }
 
-.banner > img {
+.banner-picture {
     position: absolute;
     top: 0;
     width: 100%;
@@ -259,20 +260,16 @@ body {
     text-decoration: none;
 }
 
-.sidebar {
-    width: 19.5%;
-    float: right;
-}
-
 .main-p {
+    display: grid;
+    grid-template-columns: 80.5% auto;
+    width: 100%;
     margin-top: 120px;
 }
 
 .video-block {
-    width: 78.5%;
     margin: auto 1% auto 1%;
     max-width: 1374px;
-    float: left;
 }
 
 .video-block > iframe {
@@ -288,7 +285,7 @@ body {
     object-position: top;
 }
 
-.side-movie > p {
+.side-movie > span {
     font-size: 1rem;
     color: #FFFFFF;
     margin: 10px;
@@ -359,7 +356,7 @@ body {
     position: relative;
 }
 
-.series-mobile > p {
+.series-mobile > span {
     font-size: 1.2rem;
     color: #555555;
     position: absolute;
@@ -496,6 +493,9 @@ body {
 }
 
 @media(max-width:1049px) {
+    .main-p {
+        grid-template-columns: 100%;
+    }
     .reg-button {
         width: 200px;
         height: 60px;
