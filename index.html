@@ -15,7 +15,7 @@
     <header class="header">
         <nav class="header-nav nav-desktop def-container">
             <a href="index.html" class="logo">
-                <img src="assets/img/Logo_end.png" alt="logo">
+                <img class="logo_mobile_img" src="assets/img/Logo_end.png" alt="logo">
             </a>
             <ul class="menu">
                 <li>
@@ -31,7 +31,7 @@
                  </li>
                     
                 <li>
-                    <a href="register.html" class="header-link">REGISTER</a>
+                    <a href="register.html" class="header-link header-reg-link">REGISTER</a>
                  </li>
                     
                 <li>
@@ -43,7 +43,9 @@
         <nav class="nav-mobile">
             <ul class="menu-mobile">
                 <li>
-                    <a href="#" class="logo_mobile"><img src="assets/img/Logo_end.png" alt="logo"></a>
+                    <a href="#" class="logo_mobile">
+                        <img class="logo_mobile_img"src="assets/img/Logo_end.png" alt="logo">
+                    </a>
                 </li>
 
                 <li>
@@ -78,11 +80,11 @@
                     <img class="banner-picture" src="assets/img/CM_Banner.jpg" alt="">
                 </picture>
                 <div class="banner-movie def-container">
-                    <p>Popular now</p>
-                    <p>Chainsaw Man</p>
-                    <p>Following a betrayal, a young man left for the dead is reborn as a powerful devil-human hybrid<br> after merging with his pet devil and is soon enlisted into an organization dedicated to hunting devils</p>
+                    <p class="banner-movie__lbl">Popular now</p>
+                    <p class="banner-movie__lbl">Chainsaw Man</p>
+                    <p class="banner-movie__lbl">Following a betrayal, a young man left for the dead is reborn as a powerful devil-human hybrid<br> after merging with his pet devil and is soon enlisted into an organization dedicated to hunting devils</p>
                     <button class="watch-button" onClick="window.location.href='player.html'">
-                        <p>WATCH</p>
+                        <p class="button-text">WATCH</p>
                     </button>
                 </div>
             </div>
@@ -90,7 +92,7 @@
         </section>
 
         <section class="main-nav">
-            <ul>
+            <ul class="main-nav__list">
                 <li class="main-nav-element">
                     <a href="#" class="main-nav-link">
                         <img src="assets/img/RG.png" alt="">
@@ -245,24 +247,24 @@
 
     </main>
 
-    <footer class="footer">
-        <p>MY SOCIAL MEDIA</p>
+    <footer class="footer def-container">
+        <p class="footer__paragraph-1">MY SOCIAL MEDIA</p>
         <div class="social-media">
             <ul class="social-links">
                 <li>
-                    <a href="#">
-                        <img src="assets/img/instagramm.svg" alt="" class="media_icon">
+                    <a href="#" class="social-links__item">
+                        <img src="assets/img/instagramm.svg" alt="" class="media-icon">
                     </a>
                 </li>
 
                 <li>
-                    <a href="#">
-                        <img src="assets/img/telegramm.svg" alt="" class="media_icon">
+                    <a href="#" class="social-links__item">
+                        <img src="assets/img/telegramm.svg" alt="" class="media-icon">
                     </a>
                 </li>
             </ul>
         </div>
-        <p>By rabbok</p>
+        <p class="footer__paragraph-2">By rabbok</p>
     </footer>
 </body>
 </html>
