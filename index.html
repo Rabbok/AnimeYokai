@@ -15,27 +15,27 @@
     <header class="header">
         <nav class="header-nav nav-desktop def-container">
             <a href="index.html" class="logo">
-                <img class="logo_mobile_img" src="assets/img/Logo_end.png" alt="logo">
+                <img src="assets/img/Logo_end.png" alt="logo">
             </a>
             <ul class="menu">
                 <li>
-                    <a href="#" class="header-link">SUPPORT</a>
+                    <a href="#" class="menu__link">SUPPORT</a>
                 </li>
                     
                  <li>
-                    <a href="#" class="header-link">MANGA</a>
+                    <a href="#" class="menu__link">MANGA</a>
                  </li>
                     
                  <li>
-                    <a href="#" class="header-link">SEARCH</a>
+                    <a href="#" class="menu__link">SEARCH</a>
                  </li>
                     
                 <li>
-                    <a href="register.html" class="header-link header-reg-link">REGISTER</a>
+                    <a href="register.html" class="menu__link header-reg-link">REGISTER</a>
                  </li>
                     
                 <li>
-                    <a href="login.html" class="header-link">LOG IN</a>
+                    <a href="login.html" class="menu__link">LOG IN</a>
                 </li>
             </ul>
         </nav>
@@ -43,29 +43,27 @@
         <nav class="nav-mobile">
             <ul class="menu-mobile">
                 <li>
-                    <a href="#" class="logo_mobile">
-                        <img class="logo_mobile_img"src="assets/img/Logo_end.png" alt="logo">
-                    </a>
+                    <a href="#" class="menu__link"><img class="logo-mobile-img" src="assets/img/Logo_end.png" alt="logo"></a>
                 </li>
 
                 <li>
-                    <a href="#" class="header-link">SUPPORT</a>
+                    <a href="#" class="menu__link">SUPPORT</a>
                 </li>
                     
                 <li>
-                    <a href="#" class="header-link">MANGA</a>
+                    <a href="#" class="menu__link">MANGA</a>
                 </li>
 
                 <li>
-                    <a href="#" class="header-link">SEARCH</a>
+                    <a href="#" class="menu__link">SEARCH</a>
                 </li>
 
                 <li>
-                    <a href="register.html" class="header-link">REGISTER</a>
+                    <a href="register.html" class="menu__link">REGISTER</a>
                 </li>
 
                 <li>
-                    <a href="login.html" class="header-link">LOG IN</a>
+                    <a href="login.html" class="menu__link">LOG IN</a>
                 </li>
             </ul>
         </nav>
@@ -76,9 +74,10 @@
         <section class="banners">
             <div class="banner">
                 <picture class="banner-picture">
-                    <source srcset="assets/img/CM_Banner.jpg">
+                    <source media="(max-width:1049px)" srcset="assets/img/CM.jpg">
                     <img class="banner-picture" src="assets/img/CM_Banner.jpg" alt="">
                 </picture>
+
                 <div class="banner-movie def-container">
                     <p class="banner-movie__lbl">Popular now</p>
                     <p class="banner-movie__lbl">Chainsaw Man</p>
@@ -93,31 +92,31 @@
 
         <section class="main-nav">
             <ul class="main-nav__list">
-                <li class="main-nav-element">
-                    <a href="#" class="main-nav-link">
+                <li class="main-nav__element">
+                    <a href="#" class="main-nav__link">
                         <img src="assets/img/RG.png" alt="">
-                        <span class="main-nav-lbl">Filter</span>
+                        <span class="main-nav__lbl">Filter</span>
                     </a>
                 </li>
 
-                <li class="main-nav-element">
-                    <a href="#" class="main-nav-link">
+                <li class="main-nav__element">
+                    <a href="#" class="main-nav__link">
                         <img src="assets/img/FMA.jpg" alt="">
-                        <span class="main-nav-lbl">Best rating</span>
+                        <span class="main-nav__lbl">Best rating</span>
                     </a>
                 </li>
 
-                <li class="main-nav-element">
-                    <a href="#" class="main-nav-link">
+                <li class="main-nav__element">
+                    <a href="#" class="main-nav__link">
                         <img src="assets/img/SF.jfif" alt="">
-                        <span class="main-nav-lbl">Most popular</span>
+                        <span class="main-nav__lbl">Most popular</span>
                     </a>
                 </li>
 
-                <li class="main-nav-element">
-                    <a href="#" class="main-nav-link">
+                <li class="main-nav__element">
+                    <a href="#" class="main-nav__link">
                         <img src="assets/img/BL2.png" alt="">
-                        <span class="main-nav-lbl">2022年</span>
+                        <span class="main-nav__lbl">2022年</span>
                     </a>
                 </li>
             </ul>
@@ -126,121 +125,121 @@
         <section class="movies def-container">
             <div class="movie">
                 <a href="#">
-                    <img src="assets/img/DS.png" alt="">
+                    <img class="movie__img" src="assets/img/DS.png" alt="">
                 </a>
 
                 <a href="#">
-                    <span>Demon slayer</span>
+                    <span class="movie__lbl">Demon slayer</span>
                 </a>
             </div>
 
             <div class="movie">
                 <a href="#">
-                    <img src="assets/img/cyberpunk-edgerunners-poster.jpeg" alt="">
+                    <img class="movie__img" src="assets/img/cyberpunk-edgerunners-poster.jpeg" alt="">
                 </a>
 
                 <a href="#">
-                    <span>Cyberpunk</span>
+                    <span class="movie__lbl">Cyberpunk</span>
                 </a>
             </div>
 
             <div class="movie">
                 <a href="player.html">
-                    <img src="assets/img/CM.jpg" alt="">
+                    <img class="movie__img" src="assets/img/CM.jpg" alt="">
                 </a>
 
                 <a href="player.html">
-                    <span>Chainsaw Man</span>
+                    <span class="movie__lbl">Chainsaw Man</span>
                 </a>
             </div>
 
             <div class="movie">
                 <a href="#">
-                    <img src="assets/img/BL.jpg" alt="">
+                    <img class="movie__img" src="assets/img/BL.jpg" alt="">
                 </a>
 
                 <a href="#">
-                    <span>Bleach</span>
-                </a>
-            </div>
-
-            <div class="movie">
-                <a href="#">
-                    <img src="assets/img/SF.jfif" alt="">
-                </a>
-
-                <a href="#">
-                    <span>Spy family</span>
+                    <span class="movie__lbl">Bleach</span>
                 </a>
             </div>
 
             <div class="movie">
                 <a href="#">
-                    <img src="assets/img/SAO.jpg" alt="">
+                    <img class="movie__img" src="assets/img/SF.jfif" alt="">
                 </a>
 
                 <a href="#">
-                    <span>Sword Art Online</span>
-                </a>
-            </div>
-
-            <div class="movie">
-                <a href="#">
-                    <img src="assets/img/Dota.jpg" alt="">
-                </a>
-
-                <a href="#">
-                    <span>Dota</span>
+                    <span class="movie__lbl">Spy family</span>
                 </a>
             </div>
 
             <div class="movie">
                 <a href="#">
-                    <img src="assets/img/DL.jpeg" alt="">
+                    <img class="movie__img" src="assets/img/SAO.jpg" alt="">
                 </a>
 
                 <a href="#">
-                    <span>The Daily Life of the Immortal King</span>
-                </a>
-            </div>
-
-            <div class="movie">
-                <a href="#">
-                    <img src="assets/img/SL2.jpg" alt="">
-                </a>
-
-                <a href="#">
-                    <span>That Time I Got Reincarnated as a Slime</span>
+                    <span class="movie__lbl">Sword Art Online</span>
                 </a>
             </div>
 
             <div class="movie">
                 <a href="#">
-                    <img src="assets/img/Charlotta.jpg" alt="">
+                    <img class="movie__img" src="assets/img/Dota.jpg" alt="">
                 </a>
 
                 <a href="#">
-                    <span>Charlotte</span>
-                </a>
-            </div>
-
-            <div class="movie">
-                <a href="#">
-                    <img src="assets/img/RG2.jfif" alt="">
-                </a>
-
-                <a href="#">
-                    <span>Rent-A-Girlfriend</span>
+                    <span class="movie__lbl">Dota</span>
                 </a>
             </div>
 
             <div class="movie">
                 <a href="#">
-                    <img src="assets/img/BL2.png" alt="">
+                    <img class="movie__img" src="assets/img/DL.jpeg" alt="">
                 </a>
 
                 <a href="#">
-                    <span>Blue Lock</span>
+                    <span class="movie__lbl">The Daily Life of the Immortal King</span>
+                </a>
+            </div>
+
+            <div class="movie">
+                <a href="#">
+                    <img class="movie__img" src="assets/img/SL2.jpg" alt="">
+                </a>
+
+                <a href="#">
+                    <span class="movie__lbl">That Time I Got Reincarnated as a Slime</span>
+                </a>
+            </div>
+
+            <div class="movie">
+                <a href="#">
+                    <img class="movie__img" src="assets/img/Charlotta.jpg" alt="">
+                </a>
+
+                <a href="#">
+                    <span class="movie__lbl">Charlotte</span>
+                </a>
+            </div>
+
+            <div class="movie">
+                <a href="#">
+                    <img class="movie__img" src="assets/img/RG2.jfif" alt="">
+                </a>
+
+                <a href="#">
+                    <span class="movie__lbl">Rent-A-Girlfriend</span>
+                </a>
+            </div>
+
+            <div class="movie">
+                <a href="#">
+                    <img class="movie__img" src="assets/img/BL2.png" alt="">
+                </a>
+
+                <a href="#">
+                    <span class="movie__lbl">Blue Lock</span>
                 </a>
             </div>
         </section class="movies def-container">
@@ -248,7 +247,7 @@
     </main>
 
     <footer class="footer def-container">
-        <p class="footer__paragraph-1">MY SOCIAL MEDIA</p>
+        <p class="footer__paragraph">MY SOCIAL MEDIA</p>
         <div class="social-media">
             <ul class="social-links">
                 <li>
@@ -264,7 +263,7 @@
                 </li>
             </ul>
         </div>
-        <p class="footer__paragraph-2">By rabbok</p>
+        <p class="footer__paragraph">By rabbok</p>
     </footer>
 </body>
 </html>
